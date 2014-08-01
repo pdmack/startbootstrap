@@ -21,6 +21,8 @@ h6 {
     font-weight: 700;
 }
 
+.navbar .brand > img { max-height: 50px; }
+
 .lead {
     font-size: 18px;
     font-weight: 400;
