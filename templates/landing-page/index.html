@@ -64,17 +64,23 @@
         <!-- /.container -->
     </nav>
 
-    <!-- Header -->
-    <div class="intro-header">
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
 
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="intro-message">
-                        <h1>RAD</h1>
-                        <h3>deploy, execute and manage your in-memory analytics</h3>
-                        <hr class="intro-divider">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('img/rad.jpg');background-position: right top;"></div>
+                <div class="carousel-caption">
+                    <h1>RAD</h1>
+                    <h3>deploy, execute and manage your<br/>in-memory analytics</h3>
+                    <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
                             <li>
                                 <a href="#" class="btn btn-default btn-lg"> <span class="network-name">Learn</span></a>
@@ -86,15 +92,56 @@
                                 <a href="#" class="btn btn-default btn-lg"> <span class="network-name">Connect</span></a>
                             </li>
                         </ul>
-                    </div>
                 </div>
             </div>
-
+            <div class="item">
+                <div class="fill" style="background-image:url('img/shinkansen_tokyo.png');"></div>
+                <div class="carousel-caption">
+                    <h1>RAD</h1>
+                    <h3>big data analysis delivered<br/>in seconds, not hours</h3>
+                    <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                            <li>
+                                <a href="#" class="btn btn-default btn-lg"> <span class="network-name">Learn</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn btn-default btn-lg"> <span class="network-name">Install</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn btn-default btn-lg"> <span class="network-name">Connect</span></a>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('img/flashing-lights-wall.png');background-position: bottom right;"></div>
+                <div class="carousel-caption">
+                    <h1>RAD</h1>
+                    <h3>an open source analytics stack<br/>and the community to back it</h3>
+                    <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                            <li>
+                                <a href="#" class="btn btn-default btn-lg"> <span class="network-name">Learn</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn btn-default btn-lg"> <span class="network-name">Install</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn btn-default btn-lg"> <span class="network-name">Connect</span></a>
+                            </li>
+                        </ul>
+                </div>
+            </div>
         </div>
-        <!-- /.container -->
 
-    </div>
-    <!-- /.intro-header -->
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
 
     <!-- Page Content -->
 
